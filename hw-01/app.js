@@ -19,3 +19,6 @@ const invokeAction = async ({ action, id, data }) => {
 }
 
 invokeAction({ action: "listContacts" });
+
+// const id = 9;
+// invokeAction({ action: "getContactById" , id});
